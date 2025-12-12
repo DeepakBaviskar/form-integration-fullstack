@@ -1,0 +1,6 @@
+# .gitigonore
+node_modules/
+.env
+.env.local
+.env.*.local
+.Ds_Store

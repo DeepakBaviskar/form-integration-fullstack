@@ -1,0 +1,62 @@
+/* frontend/src/pages/DashboardPage.css */
+
+.dashboard {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: 16px;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 0.5s ease;
+}
+
+.dashboard-card h1 {
+    color: #1f2937;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.dashboard-card > p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.user-info {
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.user-info p {
+    margin: 0.75rem 0;
+    color: #374151;
+    font-size: 1rem;
+}
+
+.user-info strong {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
